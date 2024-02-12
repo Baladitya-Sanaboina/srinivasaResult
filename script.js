@@ -50,7 +50,7 @@ let subject = [{
 
 //using JSON subject will be converted JSON stringify object 
 let stringified = JSON.stringify(subject)
-localStorage.setItem("216N1A05B", stringified) // this is used to store the marks of particular Roll Number
+localStorage.setItem("216N1A05B4", stringified) // this is used to store the marks of particular Roll Number
 let userEnteredTextEl = document.getElementById('userEnteredText');
 let resultButtonEl = document.getElementById("resultButton");
 resultButtonEl.onclick = function() {
